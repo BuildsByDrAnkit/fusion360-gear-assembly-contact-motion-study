@@ -8,12 +8,12 @@ A complete Fusion 360 mechanical workflow — from scratch part modeling to phys
 
 ## 📸 Project Visuals
 
-![Gear Train Motion](Media/gear_motion.gif)
+![Gear Train Motion](contacts%20%26%20motion%20study/Media/gear_motion.gif)
 
 *Static assembly views:*
 
-![Top View](Media/assembly_top_view.png)
-![Isometric View](Media/assembly_iso_view.png)
+![Top View](contacts%20%26%20motion%20study/Media/assembly_top_view.png)
+![Isometric View](contacts%20%26%20motion%20study/Media/assembly_iso_view.png)
 
 ---
 
@@ -85,20 +85,21 @@ fusion360-gear-assembly-contact-motion-study/
 ├── README.md
 │
 ├── CAD/
-│   ├── parts/
-│   │   ├── driver_Spur_Gear_12teeth.step
-│   │   ├── driven_Spur_Gear_12teeth.step
-│   │   ├── driver_shaft.step
-│   │   └── driven_shaft.step
-│   ├── assembly/
+│   ├── Assembly/
 │   │   └── simple_gear_train.step
-│   └── fusion/
-│       └── simple_gear_power.f3d
+│   ├── Fusion/
+│   │   └── simple_gear_power.f3d
+│   └── Parts/
+│       ├── driver_Spur_Gear_12teeth.step
+│       ├── driven_Spur_Gear_12teeth.step
+│       ├── driver_shaft.step
+│       └── driven_shaft.step
 │
-└── Media/
-    ├── assembly_top_view.png
-    ├── assembly_iso_view.png
-    └── gear_motion.gif
+└── contacts & motion study/
+    └── Media/
+        ├── assembly_top_view.png
+        ├── assembly_iso_view.png
+        └── gear_motion.gif
 ```
 
 ---
