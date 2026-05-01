@@ -8,16 +8,12 @@ A complete Fusion 360 mechanical workflow — from scratch part modeling to phys
 
 ## 📸 Project Visuals
 
-> 🎥 Once you export your motion study GIF, drop it in `Media/` and it will autoplay right here on GitHub:
-
 ![Gear Train Motion](Media/gear_motion.gif)
 
 *Static assembly views:*
 
 ![Top View](Media/assembly_top_view.png)
 ![Isometric View](Media/assembly_iso_view.png)
-
-> 💡 **Tip:** Rename your screenshots before uploading — e.g. `Screenshot 2026-05-01 at 11.37.45 AM.png` → `assembly_top_view.png` — so the images load correctly on GitHub.
 
 ---
 
@@ -90,22 +86,20 @@ fusion360-gear-assembly-contact-motion-study/
 │
 ├── CAD/
 │   ├── parts/
-│   │   ├── driver Spur Gear (12 teeth).step     ← rename to: driver_Spur_Gear_12teeth.step
-│   │   ├── driven Spur Gear (12 teeth) (1).step ← rename to: driven_Spur_Gear_12teeth.step
+│   │   ├── driver_Spur_Gear_12teeth.step
+│   │   ├── driven_Spur_Gear_12teeth.step
 │   │   ├── driver_shaft.step
 │   │   └── driven_shaft.step
 │   ├── assembly/
 │   │   └── simple_gear_train.step
 │   └── fusion/
-│       └── simple_gear_power.f3d        ← Full native file with joints, contacts & motion study
+│       └── simple_gear_power.f3d
 │
 └── Media/
-    ├── assembly_top_view.png            ← rename from: Screenshot 2026-05-01 at 11.37.45 AM.png
-    ├── assembly_iso_view.png            ← rename from: Screenshot 2026-05-01 at 11.39.19 AM.png (new iso view)
-    └── gear_motion.gif                  ← Add once exported from motion study
+    ├── assembly_top_view.png
+    ├── assembly_iso_view.png
+    └── gear_motion.gif
 ```
-
-> ⚠️ **Important:** GitHub handles filenames with spaces unreliably. Rename all files to use underscores before uploading — the suggested names above are already reflected in this README.
 
 ---
 
